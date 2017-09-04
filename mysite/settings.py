@@ -25,7 +25,7 @@ SECRET_KEY = '_z4ywohub$w=c5(%9hfe%w@%7_78$0t_d)-&3&oe4ppw4roiy$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '<your_username>.pythonanywhere.com', 'django-girls-hoeyboey.c9users.io']
+ALLOWED_HOSTS = ['127.0.0.1', 'hoeyboey25.pythonanywhere.com', 'django-girls-hoeyboey.c9users.io']
 
 
 # Application definition
@@ -120,3 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
